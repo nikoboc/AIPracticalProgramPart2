@@ -69,7 +69,7 @@ RULES = [
     (r"オンチャットメッセージ", "On chat message", "On chat message"),
     (r"オープンチャット", "Open chat", "Open chat"),
     (r"キーズ", "Keys", "Keys"),
-    (r"Your\s*API\s*(?:キー|Key)", "Your API Key", "Your API Key"),
+    (r"Your\s*API\s*キー", "Your API Key", "Your API Key"),
     (r"キーネーム", "Key Name", "Key Name"),
     (r"サインアップ", "Sign up", "Sign up"),
     (r"アドオプション", "Add Option", "Add Option"),
@@ -94,6 +94,8 @@ RULES = [
     (r"コリアが追加できた", "トリガーが追加できた", "トリガー（誤変換）"),
     (r"どれくらいパイワーを", "どれくらい会話を", "会話（誤変換）"),
     (r"API機", "APIキー", "APIキー（誤変換）"),
+    (r"Tavily\s*AIで強化された", "Tavily、AIで強化された", "Tavily、AI（読点補い）"),
+    (r"n8nでもとか", "n8nデモとか", "n8nデモ（誤変換）"),
 
     # --- 5. 英数字と和文の間の半角スペースを除去 / Strip spaces between ASCII and Japanese ---
     (r"(?<=[" + JA + r"])[ 　]+(?=[A-Za-z0-9])", "", "和文→英数字の空白除去"),
