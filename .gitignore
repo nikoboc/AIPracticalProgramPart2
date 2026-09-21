@@ -1,0 +1,4 @@
+.venv/
+OriginalVideo/
+__pycache__/
+*.log
