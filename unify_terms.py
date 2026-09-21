@@ -69,6 +69,8 @@ RULES = [
     (r"オンチャットメッセージ", "On chat message", "On chat message"),
     (r"オープンチャット", "Open chat", "Open chat"),
     (r"キーズ", "Keys", "Keys"),
+    (r"Your\s*API\s*(?:キー|Key)", "Your API Key", "Your API Key"),
+    (r"キーネーム", "Key Name", "Key Name"),
     (r"サインアップ", "Sign up", "Sign up"),
     (r"アドオプション", "Add Option", "Add Option"),
     (r"インポートフロムファイル", "Import from File", "Import from File"),
