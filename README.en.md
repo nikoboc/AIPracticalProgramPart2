@@ -13,7 +13,7 @@ The goal is to **produce a new curriculum by reworking the existing lecture vide
 | 1. Transcribe the existing videos | ✅ Done | `Transcripts/` |
 | 2. Normalise inconsistent terminology | ✅ Done | `unify_terms.py`, `Transcripts/表記ゆれ統一表.md` |
 | 3. Document what each video explains | ✅ Done | `第2部カリキュラム/既存動画/` |
-| 4. Reconcile with current product specs | ✅ Done (researched 2026-09-21) | `第2部カリキュラム/最新仕様反映/` |
+| 4. Reconcile with current product specs | ✅ Done (researched 2026-09-21, verified against the live product 2026-09-22) | `第2部カリキュラム/最新仕様反映/` |
 | 5. Structure and write the new curriculum | Not started | — |
 
 ## Layout
