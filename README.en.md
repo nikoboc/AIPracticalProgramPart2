@@ -14,7 +14,7 @@ The goal is to **produce a new curriculum by reworking the existing lecture vide
 | 2. Normalise inconsistent terminology | ✅ Done | `unify_terms.py`, `Transcripts/表記ゆれ統一表.md` |
 | 3. Document what each video explains | ✅ Done | `第2部カリキュラム/既存動画/` |
 | 4. Reconcile with current product specs | ✅ Done (researched 2026-09-21, verified against the live product 2026-09-22) | `第2部カリキュラム/最新仕様反映/` |
-| 5. Structure and write the new curriculum | Not started | — |
+| 5. Structure and write the new curriculum | 🚧 In progress (draft available) | [`第2部カリキュラム/新カリキュラム案.md`](第2部カリキュラム/新カリキュラム案.md) |
 
 ## Layout
 
@@ -24,6 +24,7 @@ The goal is to **produce a new curriculum by reworking the existing lecture vide
 | [`第1部カリキュラム/`](第1部カリキュラム/) | Part 1 (AI fundamentals, 10 chapters). Assumed knowledge for Part 2 |
 | [`第2部カリキュラム/既存動画/`](第2部カリキュラム/既存動画/) | What each existing video explains, **faithful to the transcripts**, with no corrections for current specs |
 | [`第2部カリキュラム/最新仕様反映/`](第2部カリキュラム/最新仕様反映/) | The same material, **revised against the specs as of 2026-09-21** |
+| [`第2部カリキュラム/新カリキュラム案.md`](第2部カリキュラム/新カリキュラム案.md) | **Draft of the new curriculum** (one-to-one, six sessions). The subject of chapters 4-5 is still undecided |
 | `transcribe.py` | Transcription script |
 | `unify_terms.py` | Bulk terminology normalisation script |
 
